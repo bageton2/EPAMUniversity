@@ -1,0 +1,17 @@
+<nav class="navbar navbar-dark bg-dark">
+    <button type="button" class="btn btn-secondary" (click)="onHomeClick()">Knowledge system</button>
+    <button type="button" class="btn btn-primary" (click)="onHomeClick()">Tests</button>
+
+    <div class="btn-group dropleft">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            {{userDetails.fullName}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item">
+                <button type="button" class="btn btn-outline-danger" (click)="onLogoutClick()"> LogOut </button>
+            </a>
+        </div>
+
+    </div>
+</nav>

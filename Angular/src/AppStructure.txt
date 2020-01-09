@@ -1,0 +1,19 @@
+.src
++---. app
+|   +---. user    
+|   |   | user.component.ts|.html|.css
+|   |   +---. registration
+|   |       |--registration.component.ts|.html
+|   |   +---. login
+|   |       |--login.component.ts|.html
+|   |   
+|   +--. home
+|   |  |--home.component.ts|.html
+|   |     
+|   +---. shared
+|   |   |--user.service.ts
+|   |
+|   |--app.module.ts
+|   |--app-routing.module.ts (route confugs.)
+|
+|--index.html (cdn path for the bootstrap)   
